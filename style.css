@@ -1,0 +1,430 @@
+#logo {
+    width: 230px;
+    position: relative;
+    top: 20px;
+    left: 28%;
+}
+header{
+    background-color: rgba(255, 217, 0, 0.518);
+    height: 52px;
+    
+}
+header a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-family: sans-serif; 
+    position: relative;
+    bottom: 20px;
+    left: 200px;
+    margin: 7px;
+    font-size: larger;
+}
+
+footer {
+    background-color: rgba(255, 217, 0, 0.518);
+    position: relative;
+    top: 100px;
+}
+footer a{
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 200px;
+}
+.zone {
+    border: solid black;
+}
+div {
+    position: relative;
+    font: 10px sans-serif;
+    font-weight: lighter;
+    border: 1px solid rgba(0, 0, 0, 0.667);;
+    margin: 1px;
+    padding: 1px;
+    width: 320px;
+    height: 150px;
+    border-radius: 3%;
+    background-color: rgba(255, 255, 255, 0.043);
+}
+body{
+    background-color: rgba(0, 0, 0, 0.863);
+    font-family: sans-serif;
+    color: aliceblue;
+    margin: 0;
+    padding: 0;
+}
+div img {
+    border: 1px solid rgba(0, 0, 0, 0.653);
+    border-radius: 3%;
+}
+#title {
+   position: relative;
+   left: 150px;
+   bottom: 13px;
+   text-decoration: none;
+   font-family: sans-serif;
+   font-weight: 150px;
+   font-size: large;
+   color: #fff;
+}
+.img1 {
+    width: 100px;
+    position: absolute;
+    top: 10px;
+    left: 5px;
+}
+.chapter {
+    padding: 7px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 200px;
+    font-size: large;
+    position: relative;
+    left: 110px;
+    border: 1px solid gray;
+    border-radius: 5%;
+    margin: 3px;
+}
+.chap {
+    display: block;
+    text-align: center;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+.descrip {
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    right: 20px;
+    font-size: medium;
+    border: #fff;
+    background-color: rgba(255, 255, 255, 0);
+}
+.comic {
+    width: 600px;
+    height: 300px;
+    margin: 20px 0px;
+    position: relative;
+}
+.img1c {
+    width: 150px;
+    margin: 20px 2px;
+    position: absolute;
+    bottom: 75px;
+    right: 440px;
+}
+th {
+    text-align: center;
+    padding: 0px 80px;
+}
+td {
+    text-align: center;
+    padding: 20px 0px;
+}
+.titlei {
+    position: absolute;
+    top: 200px;
+    left: 10px;
+}
+.allch {
+    position: inherit;
+    width: 340px;
+    height: 300px;
+}
+.nch {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+}
+.pch {
+    display: inline-block;
+    margin-right: 1100px;
+    margin-left: 100px;
+    text-decoration: none;
+    color: #fff;
+}
+#t {
+    text-align: center;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 150px;
+    font-size: large;
+    color: #fff;
+}
+#chapter1 {
+    padding: 7px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 200px;
+    font-size: large;
+    position: relative;
+    top: 20px;
+    left: 10px;
+    border: 1px solid gray;
+    border-radius: 5%;
+    margin: 3px;
+}
+#chapter2 {
+    padding: 7px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 200px;
+    font-size: large;
+    position: relative;
+    top: 20px;
+    left: 10px;
+    border: 1px solid gray;
+    border-radius: 5%;
+    margin: 3px;
+}
+#chapter3 {
+    padding: 7px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 200px;
+    font-size: large;
+    position: relative;
+    top: 20px;
+    left: 10px;
+    border: 1px solid gray;
+    border-radius: 5%;
+    margin: 3px;
+}
+#chapter4 {
+    padding: 7px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 200px;
+    font-size: large;
+    position: relative;
+    top: 44px;
+    left: 10px;
+    border: 1px solid gray;
+    border-radius: 5%;
+    margin: 3px;
+}
+#chapter5 {
+    padding: 7px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 200px;
+    font-size: large;
+    position: relative;
+    top: 44px;
+    left: 10px;
+    border: 1px solid gray;
+    border-radius: 5%;
+    margin: 3px;
+}
+#chapter6 {
+    padding: 7px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 200px;
+    font-size: large;
+    position: relative;
+    top: 44px;
+    left: 10px;
+    border: 1px solid gray;
+    border-radius: 5%;
+    margin: 3px;
+}
+#chapter7 {
+    padding: 7px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 200px;
+    font-size: large;
+    position: relative;
+    top: 68px;
+    left: 10px;
+    border: 1px solid gray;
+    border-radius: 5%;
+    margin: 3px;
+}
+#chapter8 {
+    padding: 7px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 200px;
+    font-size: large;
+    position: relative;
+    top: 68px;
+    left: 10px;
+    border: 1px solid gray;
+    border-radius: 5%;
+    margin: 3px;
+}
+#chapter9 {
+    padding: 7px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 200px;
+    font-size: large;
+    position: relative;
+    top: 68px;
+    left: 10px;
+    border: 1px solid gray;
+    border-radius: 5%;
+    margin: 3px;
+}
+#chapter10 {
+    padding: 7px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 200px;
+    font-size: 162%;
+    position: relative;
+    top: 91px;
+    left: 10px;
+    border: 1px solid gray;
+    border-radius: 5%;
+    margin: 3px;
+}
+#chapter11 {
+    padding: 7px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 200px;
+    font-size: 162%;
+    position: relative;
+    top: 91px;
+    left: 10px;
+    border: 1px solid gray;
+    border-radius: 5%;
+    margin: 3px;
+}
+#chapter12 {
+    padding: 7px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 200px;
+    font-size: 162%;
+    position: relative;
+    top: 91px;
+    left: 10px;
+    border: 1px solid gray;
+    border-radius: 5%;
+    margin: 3px;
+}
+#chapter13 {
+    padding: 7px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 200px;
+    font-size: 162%;
+    position: relative;
+    top: 115px;
+    left: 10px;
+    border: 1px solid gray;
+    border-radius: 5%;
+    margin: 3px;
+}
+#chapter14 {
+    padding: 7px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 200px;
+    font-size: 162%;
+    position: relative;
+    top: 115px;
+    left: 10px;
+    border: 1px solid gray;
+    border-radius: 5%;
+    margin: 3px;
+}
+#chapter15 {
+    padding: 7px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 200px;
+    font-size: 162%;
+    position: relative;
+    top: 115px;
+    left: 10px;
+    border: 1px solid gray;
+    border-radius: 5%;
+    margin: 3px;
+}
+#chapter16 {
+    padding: 7px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 200px;
+    font-size: 162%;
+    position: relative;
+    top: 139px;
+    left: 10px;
+    border: 1px solid gray;
+    border-radius: 5%;
+    margin: 3px;
+}
+#chapter17 {
+    padding: 7px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 200px;
+    font-size: 162%;
+    position: relative;
+    top: 139px;
+    left: 10px;
+    border: 1px solid gray;
+    border-radius: 5%;
+    margin: 3px;
+}
+#chapter18 {
+    padding: 7px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 200px;
+    font-size: 162%;
+    position: relative;
+    top: 139px;
+    left: 10px;
+    border: 1px solid gray;
+    border-radius: 5%;
+    margin: 3px;
+}
+
+
