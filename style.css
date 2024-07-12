@@ -2,14 +2,18 @@
     max-width: 100%;
     height: auto;
     width: 230px;
+    align-items: center;
+    margin: 0 auto;
     position: relative;
-    top: 36%;
-    left: 30%;
+    top: 20px;
+    right: 80%;
 }
 header{
     background-color: rgba(255, 217, 0, 0.518);
     height: 52px;
-    
+    align-items: center;
+    display: flex; /* add this line to create a flex container */
+    justify-content: center;
 }
 header a {
     color: white;
@@ -172,6 +176,14 @@ td {
     position: relative;
     left: 20%;
 }
+@media (max-width: 700px) {
+    .header {
+      align-items: center;
+    }
+    .pch {
+      margin-right: 40px; /* adjust margin right */
+    }
+  }
 #chapter1 {
     padding: 7px;
     color: #fff;
