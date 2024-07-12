@@ -1,8 +1,10 @@
 #logo {
+    max-width: 100%;
+    height: auto;
     width: 230px;
     position: relative;
-    top: 20px;
-    left: 28%;
+    top: 36%;
+    left: 30%;
 }
 header{
     background-color: rgba(255, 217, 0, 0.518);
@@ -137,16 +139,18 @@ td {
     height: 300px;
 }
 .nch {
-    display: inline-block;
+    position: relative;
     text-decoration: none;
     color: #fff;
+    display: inline-block;
 }
 .pch {
-    display: inline-block;
-    margin-right: 1100px;
-    margin-left: 100px;
+    position: relative;
     text-decoration: none;
     color: #fff;
+    display: inline-block;
+    margin-right: 50%;
+    margin-left: 10%;
 }
 #t {
     text-align: center;
@@ -155,6 +159,18 @@ td {
     font-weight: 150px;
     font-size: large;
     color: #fff;
+}
+.copyright {
+    width: 700px;
+    height: 600px;
+    font-weight: lighter;
+    font-size: large;
+    text-align: center;
+}
+.cat {
+    width: 400px;
+    position: relative;
+    left: 20%;
 }
 #chapter1 {
     padding: 7px;
