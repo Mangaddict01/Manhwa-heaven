@@ -7,6 +7,7 @@
     position: relative;
     top: 20px;
     right: 80%;
+    border: 0px;
 }
 header{
     background-color: rgba(255, 217, 0, 0.518);
@@ -29,8 +30,7 @@ header a {
 
 footer {
     background-color: rgba(255, 217, 0, 0.518);
-    position: relative;
-    top: 100px;
+    padding: 10px;
 }
 footer a{
     color: #fff;
@@ -42,7 +42,7 @@ footer a{
 .zone {
     border: solid black;
 }
-div {
+.div {
     position: relative;
     font: 10px sans-serif;
     font-weight: lighter;
@@ -103,26 +103,35 @@ div img {
     margin: 0 auto;
 }
 .descrip {
-    width: 400px;
+    width: 450px;
     height: 300px;
-    position: absolute;
-    right: 20px;
-    font-size: medium;
-    border: #fff;
+    position: relative;
+    left: 180px;
+    bottom: 250px;
+    font-size: large;
+    font-family: sans-serif;
     background-color: rgba(255, 255, 255, 0);
+    margin: 1px;
+    padding: 1px;
+    border-radius: 3%;
 }
 .comic {
-    width: 600px;
-    height: 300px;
+    width: 650px;
+    height: 350px;
     margin: 20px 0px;
     position: relative;
+    font: 10px sans-serif;
+    font-weight: lighter;
+    border: 1px solid rgba(0, 0, 0, 0.667);;
+    margin: 1px;
+    padding: 1px;
+    border-radius: 3%;
+    background-color: rgba(255, 255, 255, 0.043);
 }
 .img1c {
-    width: 150px;
-    margin: 20px 2px;
-    position: absolute;
-    bottom: 75px;
-    right: 440px;
+    width: 160px;
+    margin: 15px 10px;
+    position: relative;
 }
 th {
     text-align: center;
@@ -134,13 +143,20 @@ td {
 }
 .titlei {
     position: absolute;
-    top: 200px;
-    left: 10px;
+    top: 220px;
+    left: 17px;
 }
 .allch {
-    position: inherit;
+    position: relative;
+    bottom: 0px;
     width: 340px;
     height: 300px;
+    border: 1px solid rgba(0, 0, 0, 0.667);;
+    margin: 10px;
+    padding: 1px;
+    font-weight: lighter;
+    border-radius: 3%;
+    background-color: rgba(255, 255, 255, 0.043);
 }
 .nch {
     position: relative;
@@ -183,37 +199,80 @@ td {
     .pch {
       margin-right: 40px; /* adjust margin right */
     }
-  }
-.cookie-notification {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-    display: none;
-  }
-  
-  .cookie-notification p {
-    margin: 0;
-    padding: 0;
-  }
-  
-  .cookie-notification a {
-    color: #4CAF50;
-    text-decoration: underline;
-  }
-  
-  .cookie-notification button {
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    margin-left: 10px;
-  }
-  
+    .comic {
+        width: 500px;
+        height: 300px;
+    }
+    .descrip {
+        width: 350px;
+        height: 400px;
+        font-size: small;
+        position: relative;
+        left: 130px;
+        bottom: 170px;
+    }
+    .img1c {
+        width: 100px;
+        position: relative;
+        bottom: 10px;
+        right: 5px;
+    }
+    .titlei {
+        font-size: small;
+        position: absolute;
+        top: 134px;
+        left: 10px;
+    }
+    td {
+        position: relative;
+        right: 80px;
+    }
+    th {
+        position: relative;
+        right: 80px;
+    }
+}
+@media (max-width:400px){
+    .comic {
+        width: 380px;
+    }
+    .descrip {
+        width: 200px;
+        height: 400px;
+        font-size: small;
+        position: relative;
+        left: 100px;
+        bottom: 150px;
+    }
+    .img1c {
+        width: 80px;
+        position: relative;
+        bottom: 10px;
+        right: 5px;
+    }
+    .titlei {
+        font-size: small;
+        position: relative;
+        bottom: 100px;
+    }
+    td {
+        position: relative;
+        right: 80px;
+    }
+    th {
+        position: relative;
+        right: 80px;
+    }
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+main {
+    flex: 1; /* This makes the main content area take up available space */
+    padding: 10px;
+} 
 #chapter1 {
     padding: 7px;
     color: #fff;
@@ -356,7 +415,7 @@ td {
     text-align: center;
     font-family: sans-serif;
     font-weight: 200px;
-    font-size: 162%;
+    font-size: 100%;
     position: relative;
     top: 91px;
     left: 10px;
@@ -371,7 +430,7 @@ td {
     text-align: center;
     font-family: sans-serif;
     font-weight: 200px;
-    font-size: 162%;
+    font-size: 100%;
     position: relative;
     top: 91px;
     left: 10px;
@@ -386,7 +445,7 @@ td {
     text-align: center;
     font-family: sans-serif;
     font-weight: 200px;
-    font-size: 162%;
+    font-size: 100%;
     position: relative;
     top: 91px;
     left: 10px;
@@ -401,7 +460,7 @@ td {
     text-align: center;
     font-family: sans-serif;
     font-weight: 200px;
-    font-size: 162%;
+    font-size: 100%;
     position: relative;
     top: 115px;
     left: 10px;
@@ -416,7 +475,7 @@ td {
     text-align: center;
     font-family: sans-serif;
     font-weight: 200px;
-    font-size: 162%;
+    font-size: 100%;
     position: relative;
     top: 115px;
     left: 10px;
@@ -431,7 +490,7 @@ td {
     text-align: center;
     font-family: sans-serif;
     font-weight: 200px;
-    font-size: 162%;
+    font-size: 100%;
     position: relative;
     top: 115px;
     left: 10px;
@@ -446,7 +505,7 @@ td {
     text-align: center;
     font-family: sans-serif;
     font-weight: 200px;
-    font-size: 162%;
+    font-size: 100%;
     position: relative;
     top: 139px;
     left: 10px;
@@ -461,7 +520,7 @@ td {
     text-align: center;
     font-family: sans-serif;
     font-weight: 200px;
-    font-size: 162%;
+    font-size: 100%;
     position: relative;
     top: 139px;
     left: 10px;
@@ -476,7 +535,7 @@ td {
     text-align: center;
     font-family: sans-serif;
     font-weight: 200px;
-    font-size: 162%;
+    font-size: 100%;
     position: relative;
     top: 139px;
     left: 10px;
