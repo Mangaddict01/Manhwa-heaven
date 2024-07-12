@@ -184,6 +184,36 @@ td {
       margin-right: 40px; /* adjust margin right */
     }
   }
+.cookie-notification {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    display: none;
+  }
+  
+  .cookie-notification p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .cookie-notification a {
+    color: #4CAF50;
+    text-decoration: underline;
+  }
+  
+  .cookie-notification button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
 #chapter1 {
     padding: 7px;
     color: #fff;
