@@ -15,6 +15,7 @@ header{
     align-items: center;
     display: flex; /* add this line to create a flex container */
     justify-content: center;
+    padding: 10px;
 }
 header a {
     color: white;
@@ -46,7 +47,7 @@ footer a{
     position: relative;
     font: 10px sans-serif;
     font-weight: lighter;
-    border: 1px solid rgba(0, 0, 0, 0.667);;
+    border: 1px solid rgba(0, 0, 0, 0.667);
     margin: 1px;
     padding: 1px;
     width: 320px;
@@ -64,6 +65,11 @@ body{
 div img {
     border: 1px solid rgba(0, 0, 0, 0.653);
     border-radius: 3%;
+}
+.privacy {
+    border: 1px solid rgba(0, 0, 0, 0.667);
+    background-color: rgba(255, 255, 255, 0.043);
+    font-family: sans-serif;
 }
 #title {
    position: relative;
