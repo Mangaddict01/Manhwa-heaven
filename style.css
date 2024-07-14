@@ -218,6 +218,17 @@ td {
         left: 130px;
         bottom: 170px;
     }
+    .descrip1 {
+        width: 350px;
+        height: 400px;
+        font-size: small;
+        position: relative;
+        left: 130px;
+        bottom: 170px;
+    }
+    .img2c {
+        width: 100px;
+    }
     .img1c {
         width: 100px;
         position: relative;
@@ -255,6 +266,13 @@ td {
         left: 102px;
         bottom: 140px;
     }
+    .descrip1 {
+        width: 240px;
+        font-size: 100%;
+    }
+    .img2c {
+        width: 100px;
+    }
     .img1c {
         width: 80px;
         position: relative;
@@ -290,7 +308,51 @@ td {
 main {
     flex: 1; /* This makes the main content area take up available space */
     padding: 10px;
-} 
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 100px);
+    gap: 230px;
+}
+.title2 {
+    font-size: 110%;
+    position: absolute;
+    top: 198px;
+    left: 4px;
+}
+.descrip1 {
+    width: 350px;
+    height: 300px;
+    position: relative;
+    left: 140px;
+    bottom: 215px;
+    font-size: 120%;
+    font-family: sans-serif;
+    background-color: rgba(255, 255, 255, 0);
+    margin: 1px;
+    padding: 1px;
+    border-radius: 3%;
+}
+.img2c {
+    width: 120px;
+    margin: 15px 7px;
+}
+.img2 {
+    width: 90px;
+    position: absolute;
+    bottom: 8px;
+    left: 5px;
+}
+#title1 {
+    position: relative;
+    left: 110px;
+    bottom: 13px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 150px;
+    font-size: large;
+    color: #fff;
+}
 #chapter1 {
     padding: 7px;
     color: #fff;
