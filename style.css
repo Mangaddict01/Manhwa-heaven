@@ -199,6 +199,60 @@ td {
     position: relative;
     left: 20%;
 }
+.title2 {
+    font-size: 110%;
+    position: absolute;
+    top: 198px;
+    left: 4px;
+}
+.descrip1 {
+    width:450px;
+    height: 300px;
+    position: relative;
+    left: 150px;
+    bottom: 215px;
+    font-size: 130%;
+    font-family: sans-serif;
+    background-color: rgba(255, 255, 255, 0);
+    margin: 1px;
+    padding: 1px;
+    border-radius: 3%;
+}
+.img2c {
+    width: 120px;
+    margin: 15px 7px;
+}
+.img2 {
+    width: 90px;
+    position: absolute;
+    bottom: 8px;
+    left: 5px;
+}
+#title1 {
+    position: relative;
+    left: 110px;
+    bottom: 13px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 150px;
+    font-size: large;
+    color: #fff;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+main {
+    flex: 1; /* This makes the main content area take up available space */
+    padding: 10px;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 100px);
+    gap: 230px;
+}
+
 @media (max-width: 700px) {
     .header {
       align-items: center;
@@ -206,12 +260,17 @@ td {
     .pch {
       margin-right: 40px; /* adjust margin right */
     }
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
     .comic {
         width: 500px;
         height: 300px;
     }
     .descrip {
-        width: 350px;
+        width: 500px;
         height: 400px;
         font-size: small;
         position: relative;
@@ -221,10 +280,15 @@ td {
     .descrip1 {
         width: 350px;
         height: 400px;
-        font-size: small;
+        font-size: 110%;
         position: relative;
         left: 130px;
-        bottom: 170px;
+        bottom: 185px;
+    }
+    .title2 {
+        font-size: 100%;
+        position: absolute;
+        top: 170px
     }
     .img2c {
         width: 100px;
@@ -254,6 +318,9 @@ td {
     .pch {
         margin-right: 20px; /* adjust margin right */
       }
+    .cat {
+        width: 250px;
+    }
     .comic {
         width: 350px;
         height: 200px;
@@ -267,11 +334,14 @@ td {
         bottom: 140px;
     }
     .descrip1 {
-        width: 240px;
-        font-size: 100%;
+        width: 230px;
+        font-size: 77%;
+        position: relative;
+        bottom: 135px;
+        left: 100px;
     }
     .img2c {
-        width: 100px;
+        width: 70px;
     }
     .img1c {
         width: 80px;
@@ -284,6 +354,11 @@ td {
         position: absolute;
         top: 110px;
         left: 8px;
+    }
+    .title2 {
+        font-size: 70%;
+        position: absolute;
+        top: 125px;
     }
     td {
         position: relative;
@@ -300,59 +375,7 @@ td {
         top: 20px;
     }
 }
-.wrapper {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
-main {
-    flex: 1; /* This makes the main content area take up available space */
-    padding: 10px;
-}
-.container {
-    display: grid;
-    grid-template-columns: repeat(2, 100px);
-    gap: 230px;
-}
-.title2 {
-    font-size: 110%;
-    position: absolute;
-    top: 198px;
-    left: 4px;
-}
-.descrip1 {
-    width: 350px;
-    height: 300px;
-    position: relative;
-    left: 140px;
-    bottom: 215px;
-    font-size: 120%;
-    font-family: sans-serif;
-    background-color: rgba(255, 255, 255, 0);
-    margin: 1px;
-    padding: 1px;
-    border-radius: 3%;
-}
-.img2c {
-    width: 120px;
-    margin: 15px 7px;
-}
-.img2 {
-    width: 90px;
-    position: absolute;
-    bottom: 8px;
-    left: 5px;
-}
-#title1 {
-    position: relative;
-    left: 110px;
-    bottom: 13px;
-    text-decoration: none;
-    font-family: sans-serif;
-    font-weight: 150px;
-    font-size: large;
-    color: #fff;
-}
+
 #chapter1 {
     padding: 7px;
     color: #fff;
