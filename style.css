@@ -159,7 +159,7 @@ td {
     width: 340px;
     height: 300px;
     border: 1px solid rgba(0, 0, 0, 0.667);;
-    margin: 10px;
+    margin: 10px 0px;
     padding: 1px;
     font-weight: lighter;
     border-radius: 3%;
@@ -198,11 +198,17 @@ td {
     position: relative;
     left: 20%;
 }
-.title2 {
+.titlei1 {
     font-size: 110%;
     position: absolute;
-    top: 198px;
+    top: 170px;
     left: 4px;
+}
+.titlei2 {
+    font-size: 100%;
+    position: absolute;
+    top: 145px;
+    left: 0px;
 }
 .descrip1 {
     width:450px;
@@ -219,6 +225,10 @@ td {
 }
 .img2c {
     width: 120px;
+    margin: 15px 7px;
+}
+.img3c {
+    width: 100px;
     margin: 15px 7px;
 }
 .img2 {
@@ -251,7 +261,23 @@ main {
     grid-template-columns: repeat(2, 100px);
     gap: 230px;
 }
-
+#title2 {
+    position: relative;
+    left: 110px;
+    bottom: 10px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 150px;
+    font-size: 170%;
+    color: #fff;
+}
+.descrip2 {
+    width: 340px;
+    position: relative;
+    left: 140px;
+    bottom: 165px;
+    font-size: small;
+}
 @media (max-width: 700px) {
     .header {
       align-items: center;
@@ -284,7 +310,7 @@ main {
         left: 130px;
         bottom: 185px;
     }
-    .title2 {
+    .titlei1 {
         font-size: 100%;
         position: absolute;
         top: 170px
@@ -358,7 +384,7 @@ main {
         top: 110px;
         left: 8px;
     }
-    .title2 {
+    .titlei1 {
         font-size: 70%;
         position: absolute;
         top: 125px;
@@ -377,6 +403,21 @@ main {
         position: relative;
         right: 200px;
         top: 20px;
+    }
+    .img3c {
+        width: 80px;
+    }
+    .descrip2 {
+        font-size: xx-small;
+        width: 240px;
+        position: relative;
+        bottom: 135px;
+        left: 100px;
+    }
+    .titlei2 {
+        font-size: 80%;
+        position: absolute;
+        top: 120px;
     }
 }
 
